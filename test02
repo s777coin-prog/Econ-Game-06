@@ -1,0 +1,14 @@
+# main.py
+
+from math_utils import add, multiply, average
+
+def main():
+    nums = [2, 4, 6, 8]
+    print("Numbers:", nums)
+    
+    print("Sum:", add(nums[0], nums[1]))
+    print("Product:", multiply(nums[2], nums[3]))
+    print("Average:", average(nums))
+
+if __name__ == "__main__":
+    main()
